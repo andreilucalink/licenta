@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to right,
+    #385996,
+    #0173ac,
+    #008dbb,
+    #00a5c1,
+    #00bdc1,
+    #16cac0,
+    #33d6bc,
+    #51e2b6,
+    #53e8b5,
+    #55efb4,
+    #5af5b2,
+    #5ffbb0
+  );
+  height: 100%;
+  background-size: cover;
+}
+
+.navbarlinks {
+  color: white;
+}
+
+.navbarlinks:hover {
+  color: lightblue;
+}
